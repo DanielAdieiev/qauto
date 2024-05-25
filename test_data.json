@@ -1,0 +1,198 @@
+[{
+  "testName":"Short name validation",
+  "environment": "DEV",
+  "envURL":"https://qauto.forstudy.space/api/",
+  "testLogin":"guest",
+  "testPassword":"welcome2qauto",
+  "error": "Name has to be from 2 to 20 characters long",
+  "signUpValidationBody":{
+    "name": "h",
+    "lastName": "Dou",
+    "email": "test@test.com",
+    "password": "5",
+    "repeatPassword": "5"
+  },
+  "signUpBody":{
+    "name": "Jaopvwwn",
+    "lastName": "Sct",
+    "email": "Wio.Hills99@gmail.com",
+    "password": "j_VlsnaXXBtWS96",
+    "repeatPassword": "j_VlsnaXXBtWS96"
+  },
+  "editProfileBody": {
+    "photo": "user-352948859.jpg",
+    "name": "Johnooo",
+    "lastName": "Douooo",
+    "dateBirth": "2021-03-17",
+    "country": "Ukraine"
+  },
+  "changePasswordBody": {
+    "oldPassword": "j_VlsnaXXBtWS96",
+    "password": "j_VlsnaXXBtWS10",
+    "repeatPassword": "j_VlsnaXXBtWS10"
+  },
+  "loginAfterChangePasswordBody": {
+    "email": "Wio.Hills99@gmail.com",
+    "password": "j_VlsnaXXBtWS10",
+    "remember": "false"
+  },
+  "addAutoBody":{
+    "carBrandId": 1,
+    "carModelId": 1,
+    "mileage": 122
+  },
+  "expensesParams": {
+    "mileage": 125,
+    "liters": 11,
+    "totalCost": 11,
+    "forceMileage": false
+  }
+}, {
+  "testName":"Invalid email validation",
+  "environment": "DEV",
+  "envURL":"https://qauto.forstudy.space/api/",
+  "testLogin":"guest",
+  "testPassword":"welcome2qauto",
+  "error": "Email is incorrect",
+  "signUpValidationBody":{
+    "name": "Danttt",
+    "lastName": "ItrrsMe",
+    "email": "test@.com",
+    "password": "1qwertY_2QWERTy",
+    "repeatPassword": "1qwertY_2QWERTy"
+  },
+  "signUpBody":{
+    "name": "Daon",
+    "lastName": "ItsMe",
+    "email": "test2@tes4.com",
+    "password": "1qwertY_2QWERTy",
+    "repeatPassword": "1qwertY_2QWERTy"
+  },
+  "editProfileBody": {
+    "photo": "user-352948859.jpg",
+    "name": "Danfg",
+    "lastName": "ItsMeff",
+    "dateBirth": "2021-03-17",
+    "country": "Ukraine"
+  },
+  "changePasswordBody": {
+    "oldPassword": "1qwertY_2QWERTy",
+    "password": "1tyuiopY_2test",
+    "repeatPassword": "1tyuiopY_2test"
+  },
+  "loginAfterChangePasswordBody": {
+    "email": "test2@tes4.com",
+    "password": "1tyuiopY_2test",
+    "remember": "false"
+  },
+  "addAutoBody":{
+    "carBrandId": 1,
+    "carModelId": 1,
+    "mileage": 122
+  },
+  "expensesParams": {
+    "mileage": 125,
+    "liters": 11,
+    "totalCost": 11,
+    "forceMileage": false
+  }
+},{
+  "testName":"Short name validation",
+  "environment": "PROD",
+  "envURL":"https://qauto2.forstudy.space/api/",
+  "testLogin":"guest",
+  "testPassword":"welcome2qauto",
+  "error": "Name has to be from 2 to 20 characters long",
+  "signUpValidationBody":{
+    "name": "h",
+    "lastName": "Dou",
+    "email": "test@test.com",
+    "password": "5",
+    "repeatPassword": "5"
+  },
+  "signUpBody":{
+    "name": "Jaopvwwn",
+    "lastName": "Sct",
+    "email": "Wio.Hills99@gmail.com",
+    "password": "j_VlsnaXXBtWS96",
+    "repeatPassword": "j_VlsnaXXBtWS96"
+  },
+  "editProfileBody": {
+    "photo": "user-352948859.jpg",
+    "name": "Johnooo",
+    "lastName": "Douooo",
+    "dateBirth": "2021-03-17",
+    "country": "Ukraine"
+  },
+  "changePasswordBody": {
+    "oldPassword": "j_VlsnaXXBtWS96",
+    "password": "j_VlsnaXXBtWS10",
+    "repeatPassword": "j_VlsnaXXBtWS10"
+  },
+  "loginAfterChangePasswordBody": {
+    "email": "Wio.Hills99@gmail.com",
+    "password": "j_VlsnaXXBtWS10",
+    "remember": "false"
+  },
+  "addAutoBody":{
+    "carBrandId": 1,
+    "carModelId": 1,
+    "mileage": 122
+  },
+  "expensesParams": {
+    "mileage": 125,
+    "liters": 11,
+    "totalCost": 11,
+    "forceMileage": false
+  }
+}, {
+  "testName":"Invalid email validation",
+  "environment": "PROD",
+  "envURL":"https://qauto2.forstudy.space/api/",
+  "testLogin":"guest",
+  "testPassword":"welcome2qauto",
+  "error": "Email is incorrect",
+  "signUpValidationBody":{
+    "name": "Danttt",
+    "lastName": "ItrrsMe",
+    "email": "test@.com",
+    "password": "1qwertY_2QWERTy",
+    "repeatPassword": "1qwertY_2QWERTy"
+  },
+  "signUpBody":{
+    "name": "Daon",
+    "lastName": "ItsMe",
+    "email": "test2@tes4.com",
+    "password": "1qwertY_2QWERTy",
+    "repeatPassword": "1qwertY_2QWERTy"
+  },
+  "editProfileBody": {
+    "photo": "user-352948859.jpg",
+    "name": "Danfg",
+    "lastName": "ItsMeff",
+    "dateBirth": "2021-03-17",
+    "country": "Ukraine"
+  },
+  "changePasswordBody": {
+    "oldPassword": "1qwertY_2QWERTy",
+    "password": "1tyuiopY_2test",
+    "repeatPassword": "1tyuiopY_2test"
+  },
+  "loginAfterChangePasswordBody": {
+    "email": "test2@tes4.com",
+    "password": "1tyuiopY_2test",
+    "remember": "false"
+  },
+  "addAutoBody":{
+    "carBrandId": 1,
+    "carModelId": 1,
+    "mileage": 122
+  },
+  "expensesParams": {
+    "mileage": 125,
+    "liters": 11,
+    "totalCost": 11,
+    "forceMileage": false
+  }
+}
+]
